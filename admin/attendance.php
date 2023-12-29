@@ -53,11 +53,8 @@
                 <thead>
                   <th class="hidden"></th>
                   <th>Fecha</th>
-                  <th>ID Empleado</th>
                   <th>Nombre</th>
                   <th>Hora Entrada</th>
-                  <th>Hora Salida</th>
-                  <th>Acción</th>
                 </thead>
                 <tbody>
                   <?php
@@ -69,14 +66,9 @@
                         <tr>
                           <td class='hidden'></td>
                           <td>".date('M d, Y', strtotime($row['date']))."</td>
-                          <td>".$row['empid']."</td>
                           <td>".$row['firstname'].' '.$row['lastname']."</td>
                           <td>".date('h:i A', strtotime($row['time_in'])).$status."</td>
-                          <td>".date('h:i A', strtotime($row['time_out']))."</td>
-                          <td>
-                            <button class='btn btn-success btn-sm btn-flat edit' data-id='".$row['attid']."'><i class='fa fa-edit'></i> Editar</button>
-                            <button class='btn btn-danger btn-sm btn-flat delete' data-id='".$row['attid']."'><i class='fa fa-trash'></i> Eliminar</button>
-                          </td>
+                          
                         </tr>
                       ";
                     }
