@@ -1,4 +1,4 @@
-<!-- Edit -->
+Edit
 <div class="modal fade" id="edit">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -12,7 +12,6 @@
             		<input type="hidden" id="empid" name="id">
                 <div class="form-group">
                     <label for="edit_schedule" class="col-sm-3 control-label">Horario</label>
-
                     <div class="col-sm-9">
                       <select class="form-control" id="edit_schedule" name="schedule">
                         <option selected id="schedule_val"></option>
