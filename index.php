@@ -2,14 +2,16 @@
 <?php include 'header.php'; ?>
 <body class="hold-transition login-page">
 <div class="login-box">
+    <!-- <div>
+     <img src="./images/LOGO DIGITAL_HORIZONTAL_ADEMI.png" style="whidth: 100px;">
+    </div> -->
   	<div class="login-logo">
-  		<p id="date"></p>
+    <img src="./images/LOGO DIGITAL_HORIZONTAL_ADEMI.png">
+  		<!-- <p id="date"></p> -->
       <p id="time" class="bold"></p>
   	</div>
-  
   	<div class="login-box-body">
     	<h4 class="login-box-msg">Ingrese su ID de Empleado</h4>
-
     	<form id="attendance">
           <div class="form-group">
             <select class="form-control" name="status">
