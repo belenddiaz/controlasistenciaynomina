@@ -45,9 +45,9 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="box">
-            <div class="box-header with-border">
+            <!-- <div class="box-header with-border">
               <a href="#addnew" data-toggle="modal" class="btn btn-primary btn-sm btn-flat"><i class="fa fa-plus"></i> Nuevo</a>
-            </div>
+            </div> -->
             <div class="box-body">
               <table id="example1" class="table table-bordered">
                 <thead>
@@ -65,10 +65,9 @@
                       echo "
                         <tr>
                           <td class='hidden'></td>
-                          <td>".date('M d, Y', strtotime($row['date']))."</td>
+                          <td>".date('d-m-Y', strtotime($row['date']))."</td>
                           <td>".$row['firstname'].' '.$row['lastname']."</td>
-                          <td>".date('h:i A', strtotime($row['time_in'])).$status."</td>
-                          
+                          <td>".date('H:m:s', strtotime($row['time_in'])).$status."</td>
                         </tr>
                       ";
                     }

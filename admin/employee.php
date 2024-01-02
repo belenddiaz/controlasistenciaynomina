@@ -55,9 +55,9 @@
                   <th>ID Empleado</th>
                   <th>Foto</th>
                   <th>Nombre</th>
-                  <th>Posición</th>
-                  <th>Horarios</th>
-                  <th>Miembro Desde</th>
+                  <!-- <th>Sector</th> -->
+                  <!-- <th>Horario</th> -->
+                  <!-- <th>Miembro Desde</th> -->
                   <th>Acción</th>
                 </thead>
                 <tbody>
@@ -70,9 +70,9 @@
                           <td><?php echo $row['employee_id']; ?></td>
                           <td><img src="<?php echo (!empty($row['photo']))? '../images/'.$row['photo']:'../images/profile.jpg'; ?>" width="30px" height="30px"> <a href="#edit_photo" data-toggle="modal" class="pull-right photo" data-id="<?php echo $row['empid']; ?>"><span class="fa fa-edit"></span></a></td>
                           <td><?php echo $row['firstname'].' '.$row['lastname']; ?></td>
-                          <td><?php echo $row['description']; ?></td>
-                          <td><?php echo date('h:i A', strtotime($row['time_in'])).' - '.date('h:i A', strtotime($row['time_out'])); ?></td>
-                          <td><?php echo date('M d, Y', strtotime($row['created_on'])) ?></td>
+                          <!-- <td><?php echo $row['description']; ?></td> -->
+                          <!-- <td><?php echo date('h:i', strtotime($row['time_in'])).'  '; ?></td> -->
+                          <!-- <td><?php echo date('d-m-Y', strtotime($row['created_on'])) ?></td> -->
                           <td>
                             <button class="btn btn-success btn-sm edit btn-flat" data-id="<?php echo $row['empid']; ?>"><i class="fa fa-edit"></i> Editar</button>
                             <button class="btn btn-danger btn-sm delete btn-flat" data-id="<?php echo $row['empid']; ?>"><i class="fa fa-trash"></i> Eliminar</button>

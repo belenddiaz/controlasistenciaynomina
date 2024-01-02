@@ -14,7 +14,7 @@
           <div class="form-group">
             <select class="form-control" name="status">
               <option value="in">Hora de Entrada</option>
-              <option value="out">Hora de Salida</option>
+              <!-- <option value="out">Hora de Salida</option> -->
             </select>
           </div>
       		<div class="form-group has-feedback">
@@ -44,8 +44,8 @@
 $(function() {
   var interval = setInterval(function() {
     var momentNow = moment();
-    $('#date').html(momentNow.format('dddd').substring(0,3).toUpperCase() + ' - ' + momentNow.format('MMMM DD, YYYY'));  
-    $('#time').html(momentNow.format('hh:mm:ss A'));
+    $('#date').html(momentNow.format('d').substring(0,3).toUpperCase() + ' / ' + momentNow.format('MM/YYYY'));  
+    $('#time').html(momentNow.format('HH:mm:ss'));
   }, 100);
 
   $('#attendance').submit(function(e){

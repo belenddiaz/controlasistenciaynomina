@@ -23,7 +23,7 @@
                     	<input type="text" class="form-control" id="lastname" name="lastname" required>
                   	</div>
                 </div>
-                <div class="form-group">
+                <!-- <div class="form-group">
                   	<label for="address" class="col-sm-3 control-label">Dirección</label>
 
                   	<div class="col-sm-9">
@@ -31,22 +31,22 @@
                   	</div>
                 </div>
                 <div class="form-group">
-                  	<label for="datepicker_add" class="col-sm-3 control-label">Fecha de Nacimiento</label>
+                  	<label for="datepicker_add" class="col-sm-3 control-label">Fecha de Nacimiento</label> -->
 
-                  	<div class="col-sm-9"> 
+                  	<!-- <div class="col-sm-9"> 
                       <div class="date">
                         <input type="text" class="form-control" id="datepicker_add" name="birthdate">
                       </div>
                   	</div>
-                </div>
-                <div class="form-group">
+                </div> -->
+                <!-- <div class="form-group">
                     <label for="contact" class="col-sm-3 control-label">Información de Contacto</label>
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="contact" name="contact">
                     </div>
-                </div>
-                <div class="form-group">
+                </div> -->
+                <!-- <div class="form-group">
                     <label for="gender" class="col-sm-3 control-label">Género</label>
 
                     <div class="col-sm-9"> 
@@ -56,11 +56,11 @@
                         <option value="Female">Mujer</option>
                       </select>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="position" class="col-sm-3 control-label">Cargo</label>
+                </div> -->
+                <!-- <div class="form-group">
+                    <label for="position" class="col-sm-3 control-label">Cargo</label> -->
 
-                    <div class="col-sm-9">
+                    <!-- <div class="col-sm-9">
                       <select class="form-control" name="position" id="position" required>
                         <option value="" selected>- Seleccionar -</option>
                         <?php
@@ -74,7 +74,7 @@
                         ?>
                       </select>
                     </div>
-                </div>
+                </div> -->
                 <div class="form-group">
                     <label for="schedule" class="col-sm-3 control-label">Horario</label>
 
@@ -136,14 +136,14 @@
                       <input type="text" class="form-control" id="edit_lastname" name="lastname">
                     </div>
                 </div>
-                <div class="form-group">
+                <!-- <div class="form-group">
                     <label for="edit_address" class="col-sm-3 control-label">Dirección</label>
 
                     <div class="col-sm-9">
                       <textarea class="form-control" name="address" id="edit_address"></textarea>
                     </div>
-                </div>
-                <div class="form-group">
+                </div> -->
+                <!-- <div class="form-group">
                     <label for="datepicker_edit" class="col-sm-3 control-label">Fecha de Nacimiento</label>
 
                     <div class="col-sm-9"> 
@@ -151,26 +151,26 @@
                         <input type="text" class="form-control" id="datepicker_edit" name="birthdate">
                       </div>
                     </div>
-                </div>
-                <div class="form-group">
+                </div> -->
+                <!-- <div class="form-group">
                     <label for="edit_contact" class="col-sm-3 control-label">Información de Contacto</label>
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="edit_contact" name="contact">
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="edit_gender" class="col-sm-3 control-label">Género</label>
+                </div> -->
+                 <!-- <div class="form-group">
+                    <label for="edit_gender" class="col-sm-3 control-label">Género</label> 
 
-                    <div class="col-sm-9"> 
+                     <div class="col-sm-9"> 
                       <select class="form-control" name="gender" id="edit_gender">
                         <option selected id="gender_val"></option>
                         <option value="Male">Hombre</option>
                         <option value="Female">Mujer</option>
                       </select>
-                    </div>
-                </div>
-                <div class="form-group">
+                    </div> -->
+                </div> -->
+                <!-- <div class="form-group">
                     <label for="edit_position" class="col-sm-3 control-label">Cargo</label>
 
                     <div class="col-sm-9">
@@ -187,7 +187,7 @@
                         ?>
                       </select>
                     </div>
-                </div>
+                </div> -->
                 <div class="form-group">
                     <label for="edit_schedule" class="col-sm-3 control-label">Horario</label>
 

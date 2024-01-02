@@ -28,7 +28,7 @@
 
                 <p>
                   <?php echo $user['firstname'].' '.$user['lastname']; ?>
-                  <small>Miembro desde <?php echo date('M. Y', strtotime($user['created_on'])); ?></small>
+                  <!-- <small>Agregado desde <?php echo date('Y-m-d', strtotime($user['created_on'])); ?></small> -->
                 </p>
               </li>
               <li class="user-footer">

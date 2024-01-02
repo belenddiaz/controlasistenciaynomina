@@ -68,7 +68,7 @@
                       echo "
                         <tr>
                           <td class='hidden'></td>
-                          <td>".date('M d, Y', strtotime($row['date_overtime']))."</td>
+                          <td>".date('d-m-Y', strtotime($row['date_overtime']))."</td>
                           <td>".$row['empid']."</td>
                           <td>".$row['firstname'].' '.$row['lastname']."</td>
                           <td>".$row['hours']."</td>

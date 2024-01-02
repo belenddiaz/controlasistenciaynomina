@@ -3,7 +3,7 @@
 <head>
   	<meta charset="utf-8">
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  	<title>Control de Asistencia y Sistema de Nómina</title>
+  	<title>Control de Asistencia</title>
 	<link rel="icon" href="images/faviconconfiguroweb.png">
 	
   	<!-- Tell the browser to be responsive to screen width -->
