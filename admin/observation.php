@@ -53,8 +53,8 @@
                 <thead>
                   <th class="hidden"></th>
                   <th>Fecha</th>
-                  <th>Empleados</th>
-                  <th>Observación</th>
+                  <th>Empleado/s</th>
+                  <th>Motivo de Inasistencia</th>
                 </thead>
                 <tbody>
                   <?php

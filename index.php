@@ -24,8 +24,12 @@
         		<span class="glyphicon glyphicon-calendar form-control-feedback"></span>
       		</div>
       		<div class="row">
-    			<div class="col-xs-4">
-          			<button type="submit" class="btn btn-primary btn-block btn-flat" name="signin"><i class="fa fa-sign-in"></i> Login</button>
+    			<div class="col-xs-6">
+          			<button type="submit" class="btn btn-primary btn-block btn-flat" name="signin"><i class="fa fa-sign-in"></i>Marcar entrada</button>
+        		</div>
+
+            <div class="col-xs-6">
+          			<button type="submit" class="btn btn-primary btn-block btn-flat" name="signin"><i class="fa fa-sign-in"></i>Administrador</button>
         		</div>
       		</div>
     	</form>
