@@ -18,6 +18,7 @@
         <li class="header">ADMINISTRACIÓN</li>
         
         <li><a href="attendance.php"><i class="fa fa-calendar"></i> <span>Asistencia</span></a></li>
+        <li><a href="observation.php"><i class="fa fa-calendar"></i> <span>Observaciones de Inasistencias</span></a></li>
         <li class="treeview">
           <a href="#">
             <i class="fa fa-users"></i>
