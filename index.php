@@ -29,7 +29,7 @@
         		</div>
 
             <div class="col-xs-6">
-          			<button type="submit" class="btn btn-primary btn-block btn-flat" name="signin"><i class="fa fa-sign-in"></i>Administrador</button>
+            <a href="admin/index.php"><input type="button" class="btn btn-primary btn-block btn-flat" value="Administrador"></a>
         		</div>
       		</div>
     	</form>
