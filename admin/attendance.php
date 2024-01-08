@@ -67,7 +67,7 @@
                           <td class='hidden'></td>
                           <td>".date('d-m-Y', strtotime($row['date']))."</td>
                           <td>".$row['firstname'].' '.$row['lastname']."</td>
-                          <td>".date('H:m:s', strtotime($row['time_in'])).$status."</td>
+                          <td>".date('H:s', strtotime($row['time_in'])).$status."</td>
                         </tr>
                       ";
                     }
